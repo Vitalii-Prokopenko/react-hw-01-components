@@ -1,0 +1,30 @@
+.item {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  padding: 10px 30px;
+  font-weight: 900;
+  background-color: #d5ffe4;
+}
+
+.item:hover {
+  border: 1px solid #a084e8;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.status {
+  margin-right: 10px;
+}
+
+.avatar {
+  margin-right: 10px;
+}
+
+.status {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
