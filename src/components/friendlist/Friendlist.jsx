@@ -1,4 +1,4 @@
-import PropTypes, { bool } from 'prop-types';
+import PropTypes from 'prop-types';
 import { FriendListItem } from 'components/friendlistitem/Friendlistitem';
 import css from 'components/friendlist/friendlist.module.css';
 
@@ -23,7 +23,7 @@ FriendList.propTypes = {
       id: PropTypes.string.isRequired,
       avatar: PropTypes.string.isRequired,
       name: PropTypes.string.isRequired,
-      isOnline: bool,
+      isOnline: PropTypes.bool.isRequired,
     })
   ),
 };
